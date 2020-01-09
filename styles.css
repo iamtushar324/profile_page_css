@@ -1,3 +1,33 @@
 body{
-    background-color: cornsilk;
+    background-color:rgb(255, 223, 176);
 }
+
+
+.header{
+    text-align: center;
+    font-family: cursive;
+    
+    font-size: 130%;
+}
+
+.tushar {
+    margin-top:20px;
+    transition: 0.4s;
+    width: 12%;
+    border: solid black 4px;
+    border-radius: 2000px;
+    
+    box-shadow: 8px 8px 5px grey;
+  }
+  
+  .tushar:hover {
+    transition: 0.8s;
+    transform: translate(-8px, -8px);
+    box-shadow: 14px 14px 8px grey;
+  }
+  
+  .tushar:active{
+    transition: 0.2s;
+    transform: translate(4px, 4px);
+    box-shadow: 4px 4px 3px grey;
+  }

@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(255, 223, 176);
+    background-color:lightskyblue;
 }
 
 
@@ -14,7 +14,7 @@ body{
     margin-top:20px;
     transition: 0.4s;
     width: 12%;
-    border: solid black 4px;
+    border: solid white 8px;
     border-radius: 2000px;
     
     box-shadow: 8px 8px 5px grey;

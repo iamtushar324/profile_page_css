@@ -58,21 +58,22 @@ body{
 
 
   .left {
-    padding: 50px;
+    padding: 00px;
     box-shadow: 4px 4px 15px black;
     transition: 0.2s;
-
+    width: 100%;
     background-color: lightskyblue;
   }
 
   .left:hover  {
-    padding: 50px;
+    
+    
     box-shadow: 8px 8px 30px black;
     transition: 0.2s;
     background-color: lightskyblue;
   }
 
-
+  
 
 
 .right {
@@ -95,44 +96,28 @@ body{
 .middle{
     padding: 10px;
     display: grid;
-    grid-template-columns: 30% auto;
-    grid-column-gap:100px ;
+    grid-template-columns: 40% auto;
+    grid-column-gap:50px ;
+    grid-row-gap: 50px;
 
   }
  li ul{
-   visibility: hidden;
-   height: 0px;
-   transition: height 1s;
+   display: none;
 
  }
   li:hover ul {
-    height: auto;
-    visibility: visible;
-    transition-delay:1s;
+    display: block;
   }
 
 li {
   cursor: default;
 }
+a{
+  color: black;
+}
+  
 
-  .footer{
-    margin-top: 100px;
-    display: grid;
-    grid-column-gap:0px;
-    grid-template-columns: 48% 52%;    
-  }
-  .fright{
-    background-color: blue;
-  border:solid 10px black;
-
-    height: 200px;
-  }
-
-  .fleft{
-    border-top-left-radius: 1000px;
-    border-top-right-radius: 1000px;
-
-    border:solid 10px black;
-    background-color: blue;
-    height: 200px;
+  .pv{
+  
+    width:100% ;
   }

@@ -10,7 +10,6 @@ body{
     font-family: cursive;
     background-color: blue;
     font-size: 130%;
-    
     height:auto;
     width:100%;
     padding: 0;
@@ -22,30 +21,31 @@ body{
 
 /* profile pic css */
 
+
 .tushar {
-    
     transform: translateY(-90px) translateX(90px);
     margin-top:20px;
     transition: 0.4s;
     width: 150px;
     border: solid lightskyblue 10px;
-    
     border-radius: 100px;
-    
     box-shadow: 0px 1px 1px ;
   }
   
+
   .tushar:hover {
     transition: 0.4s;
     
     box-shadow: 0px 8px 8px black;
   }
   
+
   .tushar:active{
     transition: 0.2s;
     box-shadow: 0px 4px 1px black;
 
   }
+
 
   .name{
     display: block;
@@ -53,17 +53,86 @@ body{
     transform: translateY(-95px);
     text-align: center;
     width: 370px;
-
-    
   }
 
-.left{
-  height: 500px;
-  width: 400px;
+
+
+  .left {
+    padding: 50px;
+    box-shadow: 4px 4px 15px black;
+    transition: 0.2s;
+
+    background-color: lightskyblue;
+  }
+
+  .left:hover  {
+    padding: 50px;
+    box-shadow: 8px 8px 30px black;
+    transition: 0.2s;
+    background-color: lightskyblue;
+  }
+
+
+
+
+.right {
+    transition: 0.3s;
+  padding: 50px;
+  box-shadow: 4px 4px 15px black;
+  background-color: lightskyblue;
 }
 
-  .middle{
-    background-color: blueviolet;
-    display:grid;
-    
+
+
+.right:hover  {
+  transition: 0.3s;
+  padding: 50px;
+  box-shadow: 8px 8px 30px black;
+  background-color: lightskyblue;
+}
+
+
+.middle{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-column-gap:100px ;
+
+  }
+ li ul{
+   visibility: hidden;
+   height: 0px;
+   transition: height 1s;
+
+ }
+  li:hover ul {
+    height: auto;
+    visibility: visible;
+    transition-delay:1s;
+  }
+
+li {
+  cursor: default;
+}
+
+  .footer{
+    margin-top: 100px;
+    display: grid;
+    grid-column-gap:0px;
+    grid-template-columns: 48% 52%;    
+  }
+  .fright{
+    background-color: blue;
+  border:solid 10px black;
+
+    height: 200px;
+  }
+
+  .fleft{
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+
+    border:solid 10px black;
+    background-color: blue;
+    height: 200px;
   }
